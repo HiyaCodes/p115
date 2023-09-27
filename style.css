@@ -1,0 +1,19 @@
+h2{
+    font-size: 25px!important;
+    }
+    .btn-danger:hover{
+    background-color: rgb(98, 0, 255);
+    }
+    canvas{
+        animation-name: example;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+    }
+    @keyframes example{
+        from{
+            box-shadow: 1px 1px 30px rgb(34, 0, 255);
+        }
+        to{
+            box-shadow: 1px 1px 30px rgb(242, 0, 255);
+        }
+    }
